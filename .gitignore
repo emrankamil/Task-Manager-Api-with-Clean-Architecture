@@ -1,0 +1,26 @@
+# Go modules
+go.sum
+go.mod
+
+# Compiled files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# IDE/editor config files
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.out
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+*.env
