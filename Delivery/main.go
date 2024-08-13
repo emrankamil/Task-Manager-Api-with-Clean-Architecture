@@ -23,6 +23,9 @@ func main(){
 
 	mongo_url := os.Getenv("MONGODB_URL")
 	port := os.Getenv("PORT")
+	if port == "" {
+		port = ":8080"
+	}
 
 	client := DBinstance(mongo_url)
 	db := client.Database(domain.DatabaseName)
